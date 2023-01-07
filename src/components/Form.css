@@ -1,0 +1,63 @@
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+pre {
+  width: 70%;
+  font-size: larger;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #eaeaea;
+}
+
+.button {
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background: #17b405;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+p {
+  color: red;
+  font-size: 14px;
+  text-align: end;
+}
+
+.success {
+  width: 100%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(51, 107, 212);
+  color: white;
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 50px 20px;
+  }
+  .container > form {
+    width: 100%;
+  }
+}
